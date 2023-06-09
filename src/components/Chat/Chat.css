@@ -1,0 +1,24 @@
+.chat-div {
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.chat-icon-div {
+    background: #44A16F;
+    border: 1px solid #69AC80;
+    border-radius: 50%;
+    padding: 12px 15px 12px 15px;
+    margin-bottom: 26px;
+    cursor: pointer;
+}
+
+.chat-icon-div:hover {
+    background: linear-gradient(180deg, #48AF78 0%, #42996B 100%);
+}
+
+.chat-icon {
+    color: #fff;
+    font-size: 50px;
+}

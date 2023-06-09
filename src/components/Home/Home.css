@@ -1,0 +1,107 @@
+.home {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home-heading {
+    font-size: 2.3rem;
+    margin: 2rem 0rem 0rem 0rem;
+    color: #48AF78;
+    font-weight: 600;
+    width: 80%;
+}
+
+.home--card {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background: #fff;
+    border: 1px solid #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25)
+}
+
+.home-first--card-fdiv {
+    display: flex;
+    margin: 20px 35px 10px 35px;
+    gap: 20px;
+}
+
+
+.home-first--card-fdiv h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: -0.015rem;
+    line-height: 20px;
+    color: #48AF78;
+}
+
+.home-first--card-fdiv p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.005rem;
+    color: #959595;
+}
+
+.home-first--card-fdiv-inner {
+    display: flex;
+}
+
+.home-first--card-sdiv {
+    display: flex;
+    margin: 10px 35px 20px 35px;
+    justify-content: center;
+    border: 1px solid #959595;
+    border-radius: 24px;
+}
+
+.home-first--card-sdiv p {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.005rem;
+    color: #959595;
+    text-align: center;
+    padding: 6px 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.home-first--card-sdiv p:hover {
+    background: #FDF307;
+}
+
+/* ======================================================== */
+
+
+.home-second--card-sdiv {
+    display: flex;
+    margin: 10px 35px 10px 35px;
+    border: 1px solid #959595;
+    border-radius: 24px;
+    background: #44A16F;
+    cursor: pointer;
+    width: 65%;
+}
+
+.home-second--card-sdiv:hover {
+    background: linear-gradient(180deg, #48AF78 0%, #42996B 100%);
+}
+
+.home-second--card-sdiv p {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.005rem;
+    color: #fff;
+    text-align: center;
+    padding: 6px 25px;
+    text-transform: uppercase;
+}
+
+.home-second--card-tdiv {
+    display: flex;
+    margin: 12px 35px 25px 35px;
+    justify-content: space-between;
+}
